@@ -25,6 +25,7 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "@medical-registration/react-components": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
