@@ -1,0 +1,3 @@
+{
+  "extends": "@medical-registration/eslint-config"
+}

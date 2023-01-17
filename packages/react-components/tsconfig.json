@@ -1,0 +1,6 @@
+{
+  "extends": "@medical-registration/ts-config/react.json",
+  "include": [
+    "src",
+  ]
+}
