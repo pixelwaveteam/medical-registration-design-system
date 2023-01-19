@@ -28,6 +28,9 @@
   },
   "dependencies": {
     "@medical-registration/react-components": "*",
+    "@medical-registration/tokens": "*",
+    "@storybook/addon-a11y": "^6.5.15",
+    "modern-normalize": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
