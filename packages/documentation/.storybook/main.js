@@ -17,9 +17,9 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/medical-registration-ddesign-system/'
+      config.base = '/medical-registration-design-system/'
     }
 
     return config
-  })
+  }
 }
