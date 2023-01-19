@@ -26,5 +26,14 @@ export const {
     radii,
     space: spacing,
     fonts: fontFamilies,
+  },
+  media: {
+    md: "(min-width: 768px)",
+  },
+  utils: {
+    "dynamic-size": (value: any) => ({
+      width: value*0.4 + "px",
+      height: value*0.4 + "px"
+    })
   }
 })
