@@ -1,0 +1,12 @@
+{
+  "extends": "@medical-registration/ts-config/base.json",
+  "include": [
+    "src",
+  ],
+  "compilerOptions": {
+    "paths": {
+      "date-fns": ["node_modules/date-fns"],
+      "date-fns-tz": ["node_modules/date-fns-tz"]
+    }
+  }
+}
