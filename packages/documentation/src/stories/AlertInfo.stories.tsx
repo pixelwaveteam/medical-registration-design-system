@@ -7,6 +7,9 @@ export default {
   component: AlertInfo,
   args: {
     title: "Some Title",
+    description: "",
+    hasClose: false,
+    variant: "success"
   },
   argTypes: {
     title: {
@@ -20,14 +23,12 @@ export default {
         type: "text",
       },
       description: "Argument used to define the Alert text",
-      defaultValue: "",
     },
     hasClose: {
       control: {
         type: "boolean",
       },
       description: "Argument used to define whether the Alert has or doesn't have a close button.",
-      defaultValue: false
     },
     variant: {
       control: {
@@ -35,7 +36,6 @@ export default {
         options: ["success", "error", "info", "warning"]
       },
       description: "Argument used to define the Alert variant",
-      defaultValue: "success"
     },
   },
   parameters: {
