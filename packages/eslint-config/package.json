@@ -2,6 +2,7 @@
   "name": "@medical-registration/eslint-config",
   "license": "ISC",
   "main": "index.js",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.1.3",
