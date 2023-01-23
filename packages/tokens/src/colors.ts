@@ -67,6 +67,18 @@ export const colors = {
   "blue-800": "#1e40af",
   "blue-900": "#1e3a8a",
 
+
+  "cyan-50": "#ecfeff",
+  "cyan-100": "#cffafe",
+  "cyan-200": "#a5f3fc",
+  "cyan-300": "#67e8f9",
+  "cyan-400": "#22d3ee",
+  "cyan-500": "#06b6d4",
+  "cyan-600": "#0891b2",
+  "cyan-700": "#0e7490",
+  "cyan-800": "#155e75",
+  "cyan-900": "#164e63",
+
   "yellow-50": "#fefce8",
   "yellow-100": "#fef9c3",
   "yellow-200": "#fef08a",
