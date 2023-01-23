@@ -1,0 +1,2 @@
+import{i as r}from"./index-f7e4df44.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./jsx-runtime-da4cfb3b.js";import"./index-75cd1920.js";const n={title:"Sidebar/AvatarContainer",component:r,argTypes:{isSidebarCollapsed:{control:{type:"boolean"}},username:{control:{type:"text"}}},args:{isSidebarCollapsed:!1,username:"John Doe"}},s={},p=["Primary"];export{s as Primary,p as __namedExportsOrder,n as default};
+//# sourceMappingURL=AvatarContainer.stories-da490c7a.js.map

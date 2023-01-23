@@ -1,0 +1,2 @@
+import{n as o}from"./index-f7e4df44.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./jsx-runtime-da4cfb3b.js";import"./index-75cd1920.js";const i={title:"SkeletonLoading",component:o,argTypes:{skeletons:{control:{type:"object"}}},args:{skeletons:[1,3,3,3,3,3]}},a={},m=["Primary"];export{a as Primary,m as __namedExportsOrder,i as default};
+//# sourceMappingURL=Skeleton.stories-2e20a33c.js.map

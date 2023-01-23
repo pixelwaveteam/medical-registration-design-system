@@ -1,0 +1,2 @@
+import{e as r}from"./index-f7e4df44.js";import{j as e}from"./jsx-runtime-da4cfb3b.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-75cd1920.js";const m={title:"Divider",component:r,parameters:{docs:{component:"Used for separate sections of content"}},decorators:[t=>e("div",{style:{height:"100%",display:"flex",alignItems:"center",justifyContent:"center"},children:e(t,{})})]},c={},d=["Primary"];export{c as Primary,d as __namedExportsOrder,m as default};
+//# sourceMappingURL=Divider.stories-db5f9c1f.js.map

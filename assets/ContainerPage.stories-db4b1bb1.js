@@ -1,0 +1,2 @@
+import{C as t}from"./index-f7e4df44.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./jsx-runtime-da4cfb3b.js";import"./index-75cd1920.js";const n={title:"ContainerPage",component:t,args:{children:"Some content to the page"}},m={},s={args:{title:"Some Title"}},p=["Primary","PageWithTitle"];export{s as PageWithTitle,m as Primary,p as __namedExportsOrder,n as default};
+//# sourceMappingURL=ContainerPage.stories-db4b1bb1.js.map

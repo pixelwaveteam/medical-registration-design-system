@@ -1,0 +1,2 @@
+import{E as r}from"./index-f7e4df44.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./jsx-runtime-da4cfb3b.js";import"./index-75cd1920.js";const a={title:"Form/ErrorMessage",component:r,args:{error:"Some error"},parameters:{docs:{component:"Used to show a input's error"}}},p={},i=["Primary"];export{p as Primary,i as __namedExportsOrder,a as default};
+//# sourceMappingURL=ErrorMesage.stories-c3374ba5.js.map
