@@ -27,6 +27,9 @@
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@radix-ui/react-avatar": "^1.0.1",
+    "@radix-ui/react-checkbox": "^1.0.1",
+    "@radix-ui/react-select": "^1.2.0",
+    "@radix-ui/react-tooltip": "^1.0.3",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   }
