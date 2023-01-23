@@ -16,7 +16,7 @@ export function Avatar({ name, imageUrl, size = 8 }: AvatarProps) {
       aria-label={`${name}Avatar`}
       css={
         {
-          "--avatar-size": size*0.4 + "rem"
+          "--avatar-size": size*0.25 + "rem"
         }
       }
     >
