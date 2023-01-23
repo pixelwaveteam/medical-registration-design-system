@@ -28,12 +28,8 @@ export const {
     fonts: fontFamilies,
   },
   media: {
+    sm: "(min-width: 640px)",
     md: "(min-width: 768px)",
+    print: "print",
   },
-  utils: {
-    "dynamic-size": (value: any) => ({
-      width: value*0.4 + "px",
-      height: value*0.4 + "px"
-    })
-  }
 })
