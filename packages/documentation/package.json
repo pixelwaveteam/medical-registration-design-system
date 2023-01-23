@@ -1,5 +1,5 @@
 {
-  "name": "documentation",
+  "name": "@medical-registration/documentation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -31,6 +31,7 @@
     "@medical-registration/tokens": "*",
     "@storybook/addon-a11y": "^6.5.15",
     "modern-normalize": "^1.1.0",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
