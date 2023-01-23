@@ -1,7 +1,7 @@
 import { Transition } from "@headlessui/react";
 import { CheckCircle, Info, WarningCircle, XCircle } from "phosphor-react";
 import { Fragment, ReactElement, useState } from "react";
-import { AlertInfoContainer, AlertInfoContentContainer, AlertInfoContentDescription, AlertInfoContentTitle, AlertInfoIconContainer, CloseAlertInfoButton, CloseAlertInfoButtonIcon, CloseAlertInfoContainer } from "./styles";
+import { AlertInfoContainer, AlertInfoContentContainer, AlertInfoContentDescription, AlertInfoContentTitle, AlertInfoIconContainer, CloseAlertInfoButton, CloseAlertInfoButtonIcon } from "./styles";
 
 export interface AlertInfoProps {
   title: string | ReactElement;
@@ -76,19 +76,15 @@ export function AlertInfo({
         </AlertInfoContentContainer>
 
         {hasClose && (
-          <CloseAlertInfoContainer aria-label="CloseContainer">
-            <div>
-              <CloseAlertInfoButton
-                type="button"
-                typeOfAlert={variant}
-                onClick={handleDismissAlert}
-              >
-                <span>Dismiss</span>
-                <CloseAlertInfoButtonIcon aria-hidden="true" />
-              </CloseAlertInfoButton>
-            </div>
-          </CloseAlertInfoContainer>
-          //juntar os 3 containers Close..., Close...Button e div
+          <CloseAlertInfoButton
+            aria-label="CloseContainer"
+            type="button"
+            typeOfAlert={variant}
+            onClick={handleDismissAlert}
+          >
+            <span>Dismiss</span>
+            <CloseAlertInfoButtonIcon aria-hidden="true" />
+          </CloseAlertInfoButton>
         )}
       </AlertInfoContainer>
     </Transition>

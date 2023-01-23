@@ -28,9 +28,11 @@ export const AlertInfoContainer = styled("div", {
 });
 
 export const AlertInfoIconContainer = styled("div", {
-  flexShrink: 0,
-  height: "$6",
-  width: "$6",
+  "&>*": {
+    flexShrink: 0,
+    height: "$6",
+    width: "$6",
+  },
 
   variants: {
     typeOfAlert: {
@@ -103,22 +105,17 @@ export const AlertInfoContentDescription = styled("p", {
   }
 });
 
-export const CloseAlertInfoContainer = styled("div", {
+export const CloseAlertInfoButton = styled("button", {
   marginLeft: "auto",
   paddingLeft: "$3",
-
-  "&>div": {
-    marginInline: "calc(-1*$1.5)",
-    marginBlock: "calc(-1*$1.5)",
-  }
-});
-
-export const CloseAlertInfoButton = styled("button", {
+  marginInline: "calc(-1*$1.5)",
+  marginBlock: "calc(-1*$1.5)",
   display: 'inline-flex',
   borderRadius: "$roundedMd",
   border: "none",
   padding: "$1-5",
   cursor: "pointer",
+  height: "fit-content",
 
   '&:focus': {
     outline: 'none',
